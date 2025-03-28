@@ -1,5 +1,6 @@
 :root {
-  --braco: #f5f7fa;
+  --braco-primario: #f5f7fa;
+  --branco-secundario: #fff;
   --verde: #4caf4f;
   --cinza: #4d4d4d;
   --cinza-claro: #717171;
@@ -23,6 +24,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.875em 6.563em;
+  background-color: var(--braco-primario);
 }
 
 .cabecalho__logo {
@@ -67,4 +69,42 @@ body {
   color: var(--braco);
   background-color: var(--verde);
   border-radius: 6px;
+}
+
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 6em 0;
+  background-color: var(--braco-primario);
+}
+
+.home__texto {
+  width: 50%;
+}
+
+.home__titulo {
+  font-size: 4rem;
+  color: var(--cinza);
+}
+
+.home__titulo-green {
+  color: var(--verde);
+}
+
+.home__paragrafo {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--cinza-claro);
+  margin: 1em 0 2.875em 0;
+}
+
+.btn_registar {
+  text-decoration: none;
+  color: var(--braco);
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.875em 2em;
+  background-color: var(--verde);
+  border-radius: 4px;
 }
