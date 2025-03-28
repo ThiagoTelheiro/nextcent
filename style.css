@@ -107,6 +107,7 @@ body {
   padding: 0.875em 2em;
   background-color: var(--verde);
   border-radius: 4px;
+  color: var(--branco-primario);
 }
 
 .clientes {
