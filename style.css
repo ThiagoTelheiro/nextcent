@@ -18,6 +18,7 @@
 
 body {
   font-family: var(--font-inter);
+  background-color: var(--branco-secundario);
 }
 
 .cabecalho {
@@ -100,7 +101,7 @@ body {
   margin: 1em 0 2.875em 0;
 }
 
-.btn_registar {
+.btn_green {
   text-decoration: none;
   color: var(--branco-);
   font-weight: 500;
@@ -186,4 +187,35 @@ body {
 
 .saiba__mais {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.063em;
+  padding: 3.25em 0;
+}
+
+.saiba__mais-descricao {
+  width: 40%;
+}
+
+.saiba__mais-titulo {
+  font-size: 2.25rem;
+  color: var(--cinza);
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.saiba__mais-paragrafo {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--cinza-claro);
+  margin-bottom: 2.875em;
+}
+
+.dados {
+  padding: 3em 0;
+}
+
+.dados__box {
+  padding: 4em 9em;
+  background-color: var(--branco-primario);
 }
