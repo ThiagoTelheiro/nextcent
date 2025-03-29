@@ -159,7 +159,7 @@ body {
 }
 
 .atributos__descricao {
-  margin: 2.5em 0 6.25em 0;
+  margin: 2.5em 0 3em 0;
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -182,4 +182,8 @@ body {
   font-size: 0.875rem;
   color: var(--cinza-claro);
   line-height: 20px;
+}
+
+.saiba__mais {
+  display: flex;
 }
